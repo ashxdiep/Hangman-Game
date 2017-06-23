@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+  <meta name = “viewport” content= “width=device-width, initial-scale =1”>
+	<title>Hangman</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+  <link rel = "stylesheet" type= "text/css" href = "assets/css/style.css">
+
+  </head>
+<body>
+  <div class= "container">
+    <!-- <img src= "assets/images/background.jpg" alt= "background"> -->
+    <!-- first row: hangman header -->
+    <div class = "row">
+      <div class = "col-sm-12">
+         <img src= "assets/images/waltdisney.png" alt= "header" style = "height: 175px; width: 60%;">
+         <h1> <img src= "assets/images/htitle.jpg" class="second" alt= "title"> </h1>
+      </div>
+    </div>
+
+    <!-- Second row -->
+    <div class= "row">
+      <div class = "col-sm-8">
+        <h2> DISNEY SONGS </h2>
+      </div>
+    </div>
+
+    <!-- Third row: one column for picture, one column for guesses  -->
+    <div class= "row">
+      <div class= "col-sm-3" id = "hello">
+        <img src= "assets/images/hanger.png" class= "hanger" alt= "hanger">
+      </div>
+
+      <div class="col-sm-3">
+        <p> Press any key to get started! </p>
+        <p> <span class="wins"> Wins: </span> </p>
+        <p> Current Word </p>
+        <p> <span id="current"> </span> </p>
+        <p> Number of Guesses Remaining: </p>
+        <p class = "numGuess"> 9 </p>
+        <p> Letters Guessed Already </p>
+        <p class= "lettersGuessed">  </p>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

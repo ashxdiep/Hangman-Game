@@ -1,0 +1,30 @@
+body{
+  width: 100%;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  border: 1px solid red;
+}
+
+h2{
+  text-align: center;
+}
+
+.col-sm-3{
+  font-family: 'Patrick Hand SC', cursive;
+  padding-top: 15px;
+  font-size: 20px;
+  border-width:5px;
+  border-style:double;
+  border-color: ##4aaaa5;
+  background-color: #D3D3D3;
+  left: 75px;
+}
+
+.hanger{
+  padding-bottom: 30px;
+}
+
+.second{
+  width: 50%;
+  margin-left: 57px;
+}
